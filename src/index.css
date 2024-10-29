@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", serif;
+}
+
+#feature1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(44, 44, 44, 0.2),
+      rgba(12, 11, 11, 0.8)
+    ),
+    url(./Assets/hero_iphone14pro_mobile.jpg);
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#feature2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(133, 133, 133, 0.5),
+      rgba(177, 176, 176, 0.2)
+    ),
+    url(./Assets/Hero2.jpg);
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#feature3 {
+  background-image: url(./Assets/hero_apple_watch_series_8.jpg);
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grid1 {
+  background-image: url(./Assets/iphone_tradein_promo.jpg);
+  height: 90vh;
+  width: 96%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grid2 {
+  background-image: url(./Assets/AirpodHero.jpg);
+  height: 90vh;
+  width: 96%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grid3 {
+  background-image: url(./Assets/promo_mbp.jpg);
+  height: 90vh;
+  width: 96%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grid4 {
+  background-image: url(./Assets/tile__cauwwcyyn9hy.jpg);
+  height: 90vh;
+  width: 96%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grid5 {
+  background-image: url(./Assets/promo_ipad.jpg);
+  height: 90vh;
+  width: 96%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grid6 {
+  background-image: url(./Assets/promo_homepod.jpg);
+  height: 90vh;
+  width: 96%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
